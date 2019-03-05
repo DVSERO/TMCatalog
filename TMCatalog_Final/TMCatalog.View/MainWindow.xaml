@@ -1,0 +1,26 @@
+﻿<Window x:Class="TMCatalog.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:templateSelectors="clr-namespace:TMCatalog.View.TemplateSelectors"
+        mc:Ignorable="d"
+        Title="Topmotive Catalog 2018" Height="300" Width="300"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        WindowState="Maximized"
+        Icon="Resources\TMLogo.ico">
+  <Window.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/TMCatalog.View;component/Resources/Style.xaml"/>
+        <ResourceDictionary Source="/TMCatalog.View;component/Resources/TMCatalogContentTemplates.xaml"/>
+      </ResourceDictionary.MergedDictionaries>
+
+      <templateSelectors:TMCatalogContentSelector x:Key="TemplateSelector"></templateSelectors:TMCatalogContentSelector>
+    </ResourceDictionary>
+  </Window.Resources>
+
+  <TabControl SelectedItem="{Binding SelectedContent, Mode=TwoWay}" ItemsSource="{Binding Contents}" ContentTemplateSelector="{StaticResource TemplateSelector}">
+  </TabControl>
+</Window>

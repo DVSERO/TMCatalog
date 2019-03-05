@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog", "TMCatalog\TMCatalog.csproj", "{5FB3D6A9-EB56-449A-BE32-BAFD018DA81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog.Common", "TMCatalog.Common\TMCatalog.Common.csproj", "{B25D67E8-94FD-415B-B3B8-6E9E34058284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog.Logic", "TMCatalog.Logic\TMCatalog.Logic.csproj", "{86E301C8-CC7A-4A13-A18A-541792865636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog.Model", "TMCatalog.Model\TMCatalog.Model.csproj", "{43E8BCA0-1E80-44E3-99E6-27E08D7DDCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog.View", "TMCatalog.View\TMCatalog.View.csproj", "{FC364A7A-5FF1-4145-97B1-E3B1EB357FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCatalog.ViewModel", "TMCatalog.ViewModel\TMCatalog.ViewModel.csproj", "{6763B826-949C-488C-955D-A76CE9A1C0C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB3D6A9-EB56-449A-BE32-BAFD018DA81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB3D6A9-EB56-449A-BE32-BAFD018DA81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB3D6A9-EB56-449A-BE32-BAFD018DA81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB3D6A9-EB56-449A-BE32-BAFD018DA81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25D67E8-94FD-415B-B3B8-6E9E34058284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25D67E8-94FD-415B-B3B8-6E9E34058284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25D67E8-94FD-415B-B3B8-6E9E34058284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25D67E8-94FD-415B-B3B8-6E9E34058284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E301C8-CC7A-4A13-A18A-541792865636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E301C8-CC7A-4A13-A18A-541792865636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E301C8-CC7A-4A13-A18A-541792865636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E301C8-CC7A-4A13-A18A-541792865636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E8BCA0-1E80-44E3-99E6-27E08D7DDCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E8BCA0-1E80-44E3-99E6-27E08D7DDCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E8BCA0-1E80-44E3-99E6-27E08D7DDCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E8BCA0-1E80-44E3-99E6-27E08D7DDCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC364A7A-5FF1-4145-97B1-E3B1EB357FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC364A7A-5FF1-4145-97B1-E3B1EB357FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC364A7A-5FF1-4145-97B1-E3B1EB357FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC364A7A-5FF1-4145-97B1-E3B1EB357FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6763B826-949C-488C-955D-A76CE9A1C0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6763B826-949C-488C-955D-A76CE9A1C0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6763B826-949C-488C-955D-A76CE9A1C0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6763B826-949C-488C-955D-A76CE9A1C0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5659D97-EBFD-4DB1-86BE-278D9227B431}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dvsero.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TMCatalog\\TMCatalog.csproj
+		SccProjectName1 = TMCatalog
+		SccLocalPath1 = TMCatalog
+		SccProjectUniqueName2 = TMCatalog.Common\\TMCatalog.Common.csproj
+		SccProjectName2 = TMCatalog.Common
+		SccLocalPath2 = TMCatalog.Common
+		SccProjectUniqueName3 = TMCatalog.Logic\\TMCatalog.Logic.csproj
+		SccProjectName3 = TMCatalog.Logic
+		SccLocalPath3 = TMCatalog.Logic
+		SccProjectUniqueName4 = TMCatalog.Model\\TMCatalog.Model.csproj
+		SccProjectName4 = TMCatalog.Model
+		SccLocalPath4 = TMCatalog.Model
+		SccProjectUniqueName5 = TMCatalog.View\\TMCatalog.View.csproj
+		SccProjectName5 = TMCatalog.View
+		SccLocalPath5 = TMCatalog.View
+		SccProjectUniqueName6 = TMCatalog.ViewModel\\TMCatalog.ViewModel.csproj
+		SccProjectName6 = TMCatalog.ViewModel
+		SccLocalPath6 = TMCatalog.ViewModel
+	EndGlobalSection
+EndGlobal

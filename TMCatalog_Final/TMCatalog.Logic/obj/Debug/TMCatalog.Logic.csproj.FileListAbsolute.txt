@@ -1,0 +1,17 @@
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Logic.dll.config
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Logic.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Logic.pdb
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\EntityFramework.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\EntityFramework.SqlServer.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Model.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Common.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Model.pdb
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Model.dll.config
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\EntityFramework.xml
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\EntityFramework.SqlServer.xml
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\bin\Debug\TMCatalog.Common.pdb
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\obj\Debug\TMCatalog.Logic.csprojAssemblyReference.cache
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\obj\Debug\TMCatalog.Logic.csproj.CoreCompileInputs.cache
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\obj\Debug\TMCatalog.Logic.csproj.CopyComplete
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\obj\Debug\TMCatalog.Logic.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Logic\obj\Debug\TMCatalog.Logic.pdb
