@@ -1,0 +1,16 @@
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\TMCatalog.Model.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\TMCatalog.Model.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\TMCatalog.Common.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\TMCatalog.Common.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.csprojAssemblyReference.cache
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.csproj.CoreCompileInputs.cache
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.csproj.CopyComplete
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\TMCatalog.Model.dll.config
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\EntityFramework.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\EntityFramework.xml
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.Migrations.TMCatalogDB.resources
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Model\obj\Debug\TMCatalog.Model.csproj.GenerateResource.cache
