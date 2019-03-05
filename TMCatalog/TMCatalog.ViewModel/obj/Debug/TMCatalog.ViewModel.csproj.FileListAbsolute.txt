@@ -1,0 +1,17 @@
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.ViewModel.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.ViewModel.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Common.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Logic.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Model.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Common.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Logic.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Model.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\obj\Debug\TMCatalog.ViewModel.csprojAssemblyReference.cache
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\obj\Debug\TMCatalog.ViewModel.csproj.CoreCompileInputs.cache
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\obj\Debug\TMCatalog.ViewModel.csproj.CopyComplete
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\obj\Debug\TMCatalog.ViewModel.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\obj\Debug\TMCatalog.ViewModel.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\EntityFramework.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Model.dll.config
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\EntityFramework.xml
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.ViewModel\bin\Debug\TMCatalog.Logic.dll.config

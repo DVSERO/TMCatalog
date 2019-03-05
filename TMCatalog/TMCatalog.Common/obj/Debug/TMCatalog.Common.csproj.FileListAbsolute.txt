@@ -1,0 +1,5 @@
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Common\bin\Debug\TMCatalog.Common.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Common\bin\Debug\TMCatalog.Common.pdb
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.csproj.CoreCompileInputs.cache
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.dll
+C:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.pdb
