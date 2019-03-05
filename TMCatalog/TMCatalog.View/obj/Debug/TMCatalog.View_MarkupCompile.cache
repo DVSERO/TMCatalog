@@ -4,7 +4,7 @@
 library
 C#
 .cs
-c:\TFS\DVSERO_Online\DVSERO\Sapientia\2019\TMCatalog\TMCatalog.View\obj\Debug\
+c:\GitHub\TMCatalog\TMCatalog\TMCatalog.View\obj\Debug\
 TMCatalog.View
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 2-1193045053
 
-61543460015
-14-1848580819
+31694777693
+14-889600420
 MainWindow.xaml;Resources\Style.xaml;
 
 False
