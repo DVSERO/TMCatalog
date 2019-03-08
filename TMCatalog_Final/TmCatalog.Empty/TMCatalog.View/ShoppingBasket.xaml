@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="TMCatalog.View.ShoppingBasket"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="50"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="60"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+      <ColumnDefinition Width="100"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+
+    <TextBox Grid.Row="0"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"
+             Text="{Binding Order.Description, Mode=TwoWay}"></TextBox>
+
+    <DataGrid Grid.Row="1" 
+              Grid.Column="0"
+              ItemsSource="{Binding Order.OrderEntries}"
+              SelectedItem="{Binding SelectedOrderEntry}"
+              AutoGenerateColumns="False"
+              IsReadOnly="True">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Article Number" Width="2*" Binding="{Binding Article.ArticleNumber}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Description" Width="4*" Binding="{Binding Article.Description}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Unit Price" Width="*" Binding="{Binding UnitPrice}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Quantity" Width="*" Binding="{Binding Quantity}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Price" Width="*" Binding="{Binding Price}"></DataGridTextColumn>
+      </DataGrid.Columns>
+    </DataGrid>
+    <StackPanel Grid.Row="1"
+                Grid.Column="1"
+                Orientation="Vertical">
+      <Button HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Content="+"
+              Command="{Binding CommandIncreaseStock}">
+      </Button>
+      <Button HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Content="-"
+              Command="{Binding CommandDecreaseStock}">
+      </Button>
+    </StackPanel>
+
+    <Grid Grid.Row="2"
+          Grid.ColumnSpan="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="Auto"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+
+      <StackPanel Grid.Column="0"
+                  Orientation="Horizontal">
+        <Button VerticalAlignment="Center"
+              Content="Close Order"
+              Command="{Binding CommandCloseOrder}">
+        </Button>
+
+        <Button VerticalAlignment="Center"
+               Content="Save Shopping Basket"
+               Command="{Binding CommandSaveShoppingBasket}">
+        </Button>
+
+        <Button VerticalAlignment="Center"
+                Content="Open Orders"
+                Command="{Binding CommandOpenOrders}">
+        </Button>
+      </StackPanel>
+
+
+      <StackPanel Grid.Column="1"
+                  Orientation="Horizontal">
+        <Label Content="Total Price:"
+             VerticalAlignment="Center"
+             FontSize="25"
+             Foreground="Blue"></Label>
+        <Label Content="{Binding Order.TotalPrice}"
+             VerticalAlignment="Center"
+             FontSize="25"
+             Foreground="Blue"
+             Margin="5,0,100,0"></Label>
+      </StackPanel>
+    </Grid>
+  </Grid>
+</UserControl>

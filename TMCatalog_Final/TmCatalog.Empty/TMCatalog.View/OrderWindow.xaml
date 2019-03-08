@@ -1,0 +1,64 @@
+﻿<Window x:Class="TMCatalog.View.OrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converters="clr-namespace:TMCatalog.Common.Converters;assembly=TMCatalog.Common"
+        mc:Ignorable="d"
+        Icon="Resources\TMLogo.ico"
+        ResizeMode="NoResize"
+        WindowState="Normal"
+        WindowStartupLocation="CenterOwner"
+        Title="Orders" 
+        Height="500" Width="700">
+  <Window.Resources>
+    <converters:OrderStateConverter x:Key="orderStateConverter"/>
+    <!--<ResourceDictionary>
+      <converters:OrderStateConverter x:Key="orderStateConverter"/>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/TMCatalog.View;component/Resources/Style.xaml"/>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>-->
+  </Window.Resources>
+    <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="60"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <Label Grid.Row="0"
+           Content="{Binding SelectedOrder.Description}"
+           Style="{StaticResource OrderNameLabelStyle}"></Label>
+    <DataGrid Grid.Row="1"
+              Margin="5"
+              BorderBrush="Blue"
+              BorderThickness="1 1 1 1"
+              ItemsSource="{Binding Orders}"
+              SelectedItem="{Binding SelectedOrder}"
+              AutoGenerateColumns="False"
+              IsReadOnly="True">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Description" Width="2*" Binding="{Binding Description}"></DataGridTextColumn>
+        <DataGridTextColumn Header="OrderState" Width="*" Binding="{Binding OrderState, Converter={StaticResource orderStateConverter}}"></DataGridTextColumn>
+        <DataGridTextColumn Header="TotalPrice" Width="*" Binding="{Binding TotalPrice}"></DataGridTextColumn>
+      </DataGrid.Columns>
+    </DataGrid>
+
+    <DataGrid Grid.Row="2"
+              Margin="5"
+              BorderBrush="Blue"
+              BorderThickness="1"
+              ItemsSource="{Binding SelectedOrder.OrderEntries}"
+              AutoGenerateColumns="False"
+              IsReadOnly="True">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Article number" Width="2*" Binding="{Binding Article.ArticleNumber}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Description" Width="*" Binding="{Binding Article.Description}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Unit Price" Width="*" Binding="{Binding UnitPrice}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Quantity" Width="*" Binding="{Binding Quantity}"></DataGridTextColumn>
+        <DataGridTextColumn Header="Price" Width="*" Binding="{Binding Price}"></DataGridTextColumn>
+      </DataGrid.Columns>
+    </DataGrid>
+  </Grid>
+</Window>

@@ -1,0 +1,6 @@
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\bin\Debug\TMCatalog.Common.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\bin\Debug\TMCatalog.Common.pdb
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.csprojAssemblyReference.cache
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.csproj.CoreCompileInputs.cache
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.dll
+c:\TFS\DVSERO_Online\DVSERO\TMCatalog\TMCatalog.Common\obj\Debug\TMCatalog.Common.pdb

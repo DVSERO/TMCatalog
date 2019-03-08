@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="TMCatalog.View.VehicleTypeUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TMCatalog.View"
+             mc:Ignorable="d" 
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+             xmlns:behaviors="clr-namespace:TMCatalog.Common.Behaviors;assembly=TMCatalog.Common"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label Content="{Binding SelectedVehicleType.Description}"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"></Label>
+        
+        <!--Product selection tree view-->
+        <TreeView Grid.Column="0"
+              Grid.Row="1"
+              ItemsSource="{Binding VehicleTypeProducts}"
+              Margin="5">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding ProductList}">
+                    <TextBlock Text="{Binding Description}" />
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+            <i:Interaction.Behaviors>
+                <behaviors:TreeViewSelectedItemBehavior TreeViewSelectedItem="{Binding SelectedProduct, Mode=TwoWay}"/>
+            </i:Interaction.Behaviors>
+        </TreeView>
+
+        <GridSplitter Grid.Row="1"
+                      Grid.Column="0"  
+                      Width="10"></GridSplitter>
+        
+        <!--Articles datagrid-->
+    <Grid Grid.Column="1"
+              Grid.Row="1">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="100"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+
+      <DataGrid Grid.Column="0"
+              ItemsSource="{Binding Articles}"
+              SelectedItem="{Binding SelectedArticle}"
+              IsReadOnly="True"
+              AutoGenerateColumns="False">
+        <DataGrid.Columns>
+          <DataGridTextColumn Header="Article Number" Width="2*" Binding="{Binding ArticleNumber}"></DataGridTextColumn>
+          <DataGridTextColumn Header="Description" Width="4*" Binding="{Binding Description}"></DataGridTextColumn>
+        </DataGrid.Columns>
+      </DataGrid>
+
+      <Button Grid.Column="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Content="+"
+            Command="{Binding CommandAddArticelToShoppingBasket}">
+      </Button>
+    </Grid>
+  </Grid>
+</UserControl>

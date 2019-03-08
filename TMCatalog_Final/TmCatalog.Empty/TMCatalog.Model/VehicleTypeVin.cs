@@ -1,0 +1,42 @@
+﻿// ------------------------------------------------------------------------------------------------------------------
+// <copyright file="LoginWindowViewModel.cs" company="DVSE GmbH">
+//   Copyright (c) by DVSE Gesellschaft für Datenverarbeitung, Service und Entwicklung mbH. All rights reserved.
+// </copyright>
+// <author>Jozsef Tolgyesi</author>
+// ------------------------------------------------------------------------------------------------------------------
+
+namespace TMCatalogClient.Model
+{
+  using System.ComponentModel.DataAnnotations;
+
+  /// <summary>
+  /// Vechicle type vin relation
+  /// </summary>
+  public class VehicleTypeVin
+  {
+    /// <summary>
+    /// Gets or sets the vin.
+    /// </summary>
+    /// <value>
+    /// The vin.
+    /// </value>
+    [Key]
+    public string VIN { get; set; }
+
+    /// <summary>
+    /// Gets or sets the vehicle type identifier.
+    /// </summary>
+    /// <value>
+    /// The vehicle type identifier.
+    /// </value>
+    public int VehicleTypeId { get; set; }
+
+    /// <summary>
+    /// Gets or sets the type of the vehicle.
+    /// </summary>
+    /// <value>
+    /// The type of the vehicle.
+    /// </value>
+    public VehicleType VehicleType { get; set; }
+  }
+}
