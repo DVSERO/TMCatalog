@@ -25,6 +25,7 @@ namespace TMCatalog.Common.MVVM
         /// Raises the property changed.
         /// </summary>
         /// <param name="name">The name.</param>
+       
         public void RaisePropertyChanged([CallerMemberName]string name = null)
         {
             this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));

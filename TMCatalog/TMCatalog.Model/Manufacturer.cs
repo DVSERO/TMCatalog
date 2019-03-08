@@ -7,16 +7,18 @@
 
 namespace TMCatalogClient.Model
 {
-  using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations;
 
-  /// <summary>
-  /// Manufacturer
-  /// </summary>
-  public class Manufacturer
-  {
-    [Key]
-    public int Id { get; set; }
+    /// <summary>
+    /// Manufacturer
+    /// </summary>
+    public class Manufacturer
+    {
+        [Key]
+        public int Id { get; set; }
 
-    public string Description { get; set; }
-  }
+        public string Description { get; set; }
+
+
+    }
 }

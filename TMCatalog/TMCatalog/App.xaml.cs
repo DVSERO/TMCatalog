@@ -7,17 +7,17 @@
 
 namespace TMCatalog
 {
-  using System;
-  using System.Windows;
-  using TMCatalog.Common.MVVM;
-  using TMCatalog.Model.DBContext;
-  using TMCatalog.View;
-  using TMCatalog.ViewModel;
+    using System;
+    using System.Windows;
+    using TMCatalog.Common.MVVM;
+    using TMCatalog.Model.DBContext;
+    using TMCatalog.View;
+    using TMCatalog.ViewModel;
 
-  /// <summary>
-  /// Interaction logic for App.xaml
-  /// </summary>
-  public partial class App : Application
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
+    public partial class App : Application
     {
         protected override void OnStartup(StartupEventArgs e)
         {
@@ -43,8 +43,7 @@ namespace TMCatalog
         private void InitializeData()
         {
             try
-            
-                {
+            {
                 DBInitializer dbinit = new DBInitializer();
                 dbinit.InitializeDatabase(new TMCatalogDB());
             }
